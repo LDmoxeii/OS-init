@@ -1,0 +1,47 @@
+# Rime user dictionary
+#@/db_name	japanese
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	43
+#@/user_id	3b9bcff0-77d8-45b2-8da0-07628464e6bd
+aka 	あか	c=1 d=1 t=3
+bu 	ブ	c=1 d=1 t=28
+daietto 	ダイエット	c=1 d=1 t=35
+desu 	です	c=1 d=1 t=40
+do 	ド	c=1 d=1 t=29
+douga 	どうが	c=1 d=1 t=11
+eri-to 	エリート	c=1 d=1 t=22
+fudan 	普段	c=1 d=1 t=13
+gan rin 	ガンリン	c=1 d=1 t=36
+gaso rii 	ガソリイ	c=1 d=1 t=37
+hage 	はげ	c=1 d=1 t=12
+ho 	ホ	c=1 d=1 t=25
+i 	イ	c=1 d=1 t=26
+kayo 	かよ	c=1 d=1 t=5
+ki 	き	c=1 d=1 t=17
+kiji 	きじ	c=1 d=1 t=6
+ku 	く	c=1 d=1 t=18
+kunai 	くない	c=1 d=1 t=38
+kura 	くら	c=2 d=1.96561 t=9
+ma 	マ	c=1 d=1 t=24
+mashita 	ました	c=1 d=1 t=42
+masu 	ます	c=2 d=1.99005 t=43
+nara 	なら	c=1 d=1 t=7
+naraigoto 	習い事	c=1 d=1 t=19
+netto sho bbi n gu 	ネットショッビング	c=1 d=1 t=33
+no 	の	c=1 d=1 t=39
+pi 	ピ	c=1 d=1 t=34
+puressha- 	プレッシャー	c=1 d=1 t=32
+reberu 	レベル	c=1 d=1 t=31
+sakka- 	サッカー	c=1 d=1 t=30
+shingaku 	進学	c=1 d=1 t=15
+shisei 	姿勢	c=1 d=1 t=16
+shuushoku 	就職	c=1 d=1 t=21
+soudan 	そうだん	c=1 d=1 t=10
+soudan 	相談	c=1 d=1 t=14
+su 	す	c=1 d=1 t=8
+su 	ス	c=1 d=1 t=23
+ta 	た	c=1 d=1 t=1
+taiou 	対応	c=1 d=1 t=20
+te _i 	てぃ	c=1 d=1 t=27
+ukei 	うけい	c=1 d=1 t=4
