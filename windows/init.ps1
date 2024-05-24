@@ -1,5 +1,6 @@
 iwr -useb get.scoop.sh | iex
 
+scoop update
 scoop bucket add versions
 scoop bucket add extras
 scoop bucket add nonportable

@@ -37,7 +37,7 @@ WARN  Found 3 potential problems.
 ```sh
 # Windows Defender可能会因实时扫描而减慢或破坏安装（注意对应实际 Scoop 路径）
 sudo Add-MpPreference -ExclusionPath 'D:\Scoop'
-sudo Add-MpPreference -ExclusionPath 'D:\Scoop\Global'
+sudo Add-MpPreference -ExclusionPath ':\Scoop\Global'
 # 长路径支持（建议开启）
 sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name
 ```
