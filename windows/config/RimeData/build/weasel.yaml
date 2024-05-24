@@ -1,0 +1,47 @@
+__build_info:
+  rime_version: 1.11.2
+  timestamps:
+    weasel: 1715698406
+    weasel.custom: 1716537327
+app_options:
+  {}
+config_version: 0.22
+global_ascii: false
+preset_color_schemes:
+  apathy:
+    author: "LIANG Hai | placeless"
+    back_color: 0xFFFFFF
+    candidate_format: "%c'%@''"
+    candidate_list_layout: linear
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: PingFangSC
+    font_point: 17
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_label_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
+    inline_preedit: true
+    label_color: 0xFFFFFF
+    label_font_point: 17
+    name: "冷漠／Apathy"
+    text_color: 0x424242
+    text_orientation: horizontal
+  pill:
+    author: placeless
+    back_color: 0x283228
+    candidate_format: "%c'%@''"
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: PingFangSC
+    font_point: 17
+    hilited_candidate_back_color: 0xF0F0F0
+    hilited_candidate_label_color: 0xF0F0F0
+    hilited_candidate_text_color: 0x283228
+    label_color: 0x283228
+    label_font_point: 17
+    name: "药丸／Pill"
+    text_color: 0xF0F0F0
+show_notifications: true
+show_notifications_time: 1200
+style:
+  color_scheme: apathy

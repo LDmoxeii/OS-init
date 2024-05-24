@@ -1,0 +1,16 @@
+patch:
+# 双拼使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@5": table_translator@custom_phrase
+  # translator/preedit_format: {}     # 输入双拼码的时候不转化为全拼码
+  
+  # librime-lua 输入动态时间和日期
+  "engine/translators/@6": lua_translator@date_translator
+  "engine/translators/@7": lua_translator@time_translator
+  "engine/translators/@8": lua_translator@week_translator

@@ -1,0 +1,13 @@
+var:
+  last_build_time: 1714301596
+  option:
+    ascii_punct: false
+    full_shape: false
+    simplification: true
+  previously_selected_schema: placeless_flypy
+  schema_access_time:
+    jap_poly: 1711462045
+    japanese: 1711469138
+    luna_pinyin: 1714301533
+    moran_english: 1688049610
+    placeless_flypy: 1714301566
