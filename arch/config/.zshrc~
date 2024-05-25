@@ -1,0 +1,28 @@
+autoload -U compaudit compinit
+autoload -U compinit && compinit
+
+eval "$(zoxide init zsh --cmd cd)"
+
+export DENO_INSTALL="/root/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+alias ls="lsd"
+alias find="fd --exclude ~/SourceFile --exclude ~/go "
+alias cat="bat"
+
+source ~/.zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
+source ~/.fzf/fzf.zsh
+source ~/.zsh/plugins/zsh-autopair/autopair.zsh
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+HISTSIZE=5000
+SAVEHIST=5000
+
+source ~/.zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.zsh/config/.p10k.zsh
+autoload -U promptinit; promptinit

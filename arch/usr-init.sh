@@ -1,12 +1,18 @@
-echo "enter username: "
-read username
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 [username]"
+    exit 1
+fi
 
-echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/wheel
+passwd
 
-useradd -m -G wheel -s /bin/bash $user_name
+systemctl enable systemd-networkd-wait-online.service
 
-passwd $username
+echo "%wheel ALL=(ALL) ALL" > /etc/sudoers
+echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-su $username
+useradd -m -G wheel -s /bin/bash $1
+passwd $1
+su -l $1
 
-# Arch.exe config --default-user moxeii
+systemctl disable systemd-not
