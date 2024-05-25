@@ -7,7 +7,11 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/the
 sed -i 's/plugins=(git)/plugins=(sudo\n\tzsh-autopair\n\tzsh-autosuggestions\n\tzsh-syntax-highlighting)\n\tfzf-tab/' ~/.zshrc
 sed -i 's/robbyrussell/powerlevel10k/powerlevel10k/' ~/.zshrc
 echo 'eval "$(zoxide init zsh --cmd cd)"' >> ~/.zshrc
+
+if [ -d "/root/.deno" ]; then
 echo 'export DENO_INSTALL="/root/.deno"' >> ~/.zshrc
+fi
+
 echo 'export FZF="/usr/share/fzf"'
 echo 'export PATH="$DENO_INSTALL/bin:$PATH"' >> ~/.zshrc
 
@@ -15,5 +19,5 @@ source ~/.zshrc
 
 chsh -s /usr/bin/zsh
 
-sudo ln -s $HOME/.oh-my-zsh           /root/.oh-my-zsh
-sudo ln -s $HOME/.zshrc               /root/.zshrc
+sudo cp -r $HOME/.oh-my-zsh           /root/.oh-my-zsh
+sudo cp -r $HOME/.zshrc               /root/.zshrc
